@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>latihan css</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+
+      * {
+        border: 1px solid grey;
+        /* bingkai 1px buat ketebalan solid jenis garis sisanya warna */
+        font-size: 20px; 
+        /* besarkan tulisan */
+      }
+
+      body {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background: burlywood;
+      }
+      h1 {
+        color: blue;
+        text-align: center;
+      }
+      
+      p{
+        color: cyan;
+        /* merapikan tulisan */
+        text-align: justify;
+        font-weight: 700;
+        font-family: 'Griffy', cursive;
+      }
+      
+      /* hover ketika mouse diarahkan ke suatu object */
+      p:hover{
+        /* important memaksa css ini agar dijalankan */
+        color: white !important;
+      }
+
+      .text-green{
+        color: greenyellow;
+      }
+
+      #judul{
+        color: rebeccapurple;
+      }
+
+      input[type=text]{
+        background: red;
+        color: blanchedalmond;
+      }
+
+      input[type=password]{
+        background: yellow;
+        color: blue;
+      }
+    </style>
+    <!-- ixternal css -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 class="text-green" id="judul"> Belajar CSS</h1>
+
+    <!-- inline css -->
+    <p style="color: red">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et non quam
+      accusamus dolor reprehenderit earum. Qui quos laboriosam ut perferendis
+      enim consequatur, cupiditate quia fugit id, est laborum facilis
+      doloremque!
+    </p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, cupiditate deleniti? Impedit libero, eligendi, laborum a delectus, iure veritatis tenetur nobis sapiente aliquid eum labore dolorum! Ab deserunt vel at.
+    Tempore quae quos voluptatum amet! Dolore quo quidem consequatur repellat nisi excepturi numquam, quas tempora cumque dignissimos accusamus quia pariatur nulla veritatis sunt, ipsam voluptatibus nobis dolorem! Doloremque, sunt odit?
+    Neque minus quia fugiat temporibus enim, expedita nam atque rerum repudiandae quae deleniti labore voluptatum unde vero, nihil consequatur repellendus aspernatur voluptas odio in ea. Eaque asperiores exercitationem error illo.</p>
+
+    <input type="text" name="" id="">
+    <input type="password" name="">
+  </body>
+</html>
